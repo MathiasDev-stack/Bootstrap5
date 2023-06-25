@@ -1,8 +1,23 @@
 /* XS*/
 h1 {
 
-    color: blue;
+    color:red;
 }
+/*SM>= 576px */
+@media (min-width:576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/*MD >= 768px */
+@media (min-width:768px) {
+    h1{
+        color: green;
+    }
+}
+
+
 .btn-primary {
     background-color: red;
 }
